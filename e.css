@@ -25,11 +25,17 @@ main{
 @media screen and (max-width:768px){
   main{
     width:100%;
+    margin-top:50px;
   }
   .step-box{
-    margin:50px 0 20px 25px;
     width:90%;
     padding:2%;
+    float:none;
+    margin:0 5%;
+    margin-bottom:20px;
+  }
+  .step-box:last-child{
+    margin-bottom:none;
   }
   .main-image{
     width:86%;
